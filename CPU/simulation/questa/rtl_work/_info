@@ -1,0 +1,1252 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/quartus_projects/EE214/project/CPU/simulation/questa
+T_opt
+!s110 1733378140
+V>jDTU=iUBn54j[M:E2HPg1
+04 6 10 work fsm_tb behavioral 1
+=1-001c425fbbff-6751405b-1da-2608
+!s124 OEM10U74 
+o-quiet -auto_acc_if_foreign -work work -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work +acc
+tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+Ealu
+Z1 w1733215384
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 24
+R0
+Z5 8C:/quartus_projects/EE214/project/CPU/alu.vhd
+Z6 FC:/quartus_projects/EE214/project/CPU/alu.vhd
+l0
+L5 1
+VcTVW5_jz`Rz_mD2RBLJdb3
+!s100 J1<<hAHg3gncJ`ClK]?JZ2
+Z7 OL;C;2021.2;73
+31
+Z8 !s110 1733378138
+!i10b 1
+Z9 !s108 1733378137.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/quartus_projects/EE214/project/CPU/alu.vhd|
+Z11 !s107 C:/quartus_projects/EE214/project/CPU/alu.vhd|
+!i113 0
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Amanyoperationsatoncewow
+Z14 DEx4 work 11 n_bit_imply 0 22 a>A6QjKVTRG788dSK1kR:1
+Z15 DEx4 work 9 n_bit_and 0 22 J5W8K9[?f6IOR2HLPeWfC1
+Z16 DEx4 work 8 n_bit_or 0 22 YM=9DWI=jh3B33QFBVY2V1
+Z17 DEx4 work 19 four_bit_multiplier 0 22 F=BB?=e=fdaPA8l[L5]JK3
+Z18 DEx4 work 22 n_bit_adder_subtractor 0 22 @^D@b4JXjBh@HXO`g=;Z[1
+Z19 DEx4 work 12 mux16bit8to1 0 22 0C6lmO1z;3m`EOS>MeA4D2
+R2
+R3
+R4
+Z20 DEx4 work 3 alu 0 22 cTVW5_jz`Rz_mD2RBLJdb3
+!i122 24
+l16
+L13 40
+V[a5JNcQaB?B;K;SJMm_ab3
+!s100 z1<PJE]a8B0QhL1aoMZB`0
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Econditioncoderegister
+Z21 w1733328146
+R2
+R3
+R4
+!i122 20
+R0
+Z22 8C:/quartus_projects/EE214/project/CPU/ConditionCodeRegister.vhd
+Z23 FC:/quartus_projects/EE214/project/CPU/ConditionCodeRegister.vhd
+l0
+L5 1
+VaMGlHL1D2ISPVk16]@2XN1
+!s100 5A2Ae8Cm^<E@Ec`dG^IcT1
+R7
+31
+Z24 !s110 1733378137
+!i10b 1
+R9
+Z25 !s90 -reportprogress|300|-93|-work|work|C:/quartus_projects/EE214/project/CPU/ConditionCodeRegister.vhd|
+Z26 !s107 C:/quartus_projects/EE214/project/CPU/ConditionCodeRegister.vhd|
+!i113 0
+R12
+R13
+Abehavioral
+R2
+R3
+R4
+Z27 DEx4 work 21 conditioncoderegister 0 22 aMGlHL1D2ISPVk16]@2XN1
+!i122 20
+l19
+L16 22
+VWc9hk<0Z3oVNOkV0zBY9h2
+!s100 B]ULKYb==ifmgedUFf]7Q3
+R7
+31
+R24
+!i10b 1
+R9
+R25
+R26
+!i113 0
+R12
+R13
+Edatapath
+Z28 w1733327504
+R2
+R3
+R4
+!i122 25
+R0
+Z29 8C:/quartus_projects/EE214/project/CPU/datapath.vhd
+Z30 FC:/quartus_projects/EE214/project/CPU/datapath.vhd
+l0
+L11 1
+VW7Fa:F<RDCGd[2N?]DfWd1
+!s100 G?^TWh8e@nj0ZTo_CjHXV1
+R7
+31
+R8
+!i10b 1
+Z31 !s108 1733378138.000000
+Z32 !s90 -reportprogress|300|-93|-work|work|C:/quartus_projects/EE214/project/CPU/datapath.vhd|
+Z33 !s107 C:/quartus_projects/EE214/project/CPU/datapath.vhd|
+!i113 0
+R12
+R13
+Astructure
+Z34 DEx4 work 11 mux3bit4to1 0 22 VVL;4:b]j5IbG:LQ;9>h;2
+Z35 DEx4 work 7 pad_lli 0 22 g?8^R;fe2]zcB_iK]bbMV3
+Z36 DEx4 work 3 lhi 0 22 _bFER=i7e@C2Fg84D]1@[3
+Z37 DEx4 work 12 mux16bit4to1 0 22 kDLi9@ML`?lXgTAh`6dSj3
+Z38 DEx4 work 6 se9_16 0 22 NEiiOJ`^4N8]>F]ec:PgH1
+Z39 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z40 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z41 DEx4 work 6 se6_16 0 22 BQH2bWUgVdT:L8g;DeJZe3
+Z42 DEx4 work 12 mux16bit2to1 0 22 8YgYcWYU`NY[W`O0f;3hP2
+R20
+Z43 DEx4 work 13 register_file 0 22 Z`k[0LYe95BJmLcb4gdX32
+Z44 DEx4 work 6 memory 0 22 X<??b6jn93FoN0O]6V`630
+Z45 DEx4 work 20 instruction_register 0 22 h6;2FiHR>^ogd8oen;0^M1
+Z46 DEx4 work 14 n_bit_register 0 22 H:g`fgOh=o:OUe6UY0;?J2
+R27
+R2
+R3
+R4
+Z47 DEx4 work 8 datapath 0 22 W7Fa:F<RDCGd[2N?]DfWd1
+!i122 25
+l97
+L57 237
+VPERLFm[JVbWj<N4z<_Pz73
+!s100 ?OKH7_d60:`?7BRe]HAV30
+R7
+31
+R8
+!i10b 1
+R31
+R32
+R33
+!i113 0
+R12
+R13
+Edemux1x8
+R1
+R3
+R4
+!i122 19
+R0
+Z48 8C:/quartus_projects/EE214/project/CPU/demux1x8.vhd
+Z49 FC:/quartus_projects/EE214/project/CPU/demux1x8.vhd
+l0
+L4 1
+VknY?U]ZQI[]3AB`8Ojha>3
+!s100 WQ;UIbelf4VhH<DDWPDcX3
+R7
+31
+R24
+!i10b 1
+R9
+Z50 !s90 -reportprogress|300|-93|-work|work|C:/quartus_projects/EE214/project/CPU/demux1x8.vhd|
+Z51 !s107 C:/quartus_projects/EE214/project/CPU/demux1x8.vhd|
+!i113 0
+R12
+R13
+Acombinational
+R3
+R4
+DEx4 work 8 demux1x8 0 22 knY?U]ZQI[]3AB`8Ojha>3
+!i122 19
+l13
+L12 13
+V=:;6@;S^JEC@]TX<POzDj0
+!s100 >El9JjR@iYP3>jOQ;GfX]1
+R7
+31
+R24
+!i10b 1
+R9
+R50
+R51
+!i113 0
+R12
+R13
+Efour_bit_multiplier
+R1
+R2
+R3
+R4
+!i122 23
+R0
+Z52 8C:/quartus_projects/EE214/project/CPU/four_bit_multiplier.vhd
+Z53 FC:/quartus_projects/EE214/project/CPU/four_bit_multiplier.vhd
+l0
+L5 1
+VF=BB?=e=fdaPA8l[L5]JK3
+!s100 7lG7jX;5j8d@h`JPkid2W1
+R7
+31
+R24
+!i10b 1
+R9
+Z54 !s90 -reportprogress|300|-93|-work|work|C:/quartus_projects/EE214/project/CPU/four_bit_multiplier.vhd|
+Z55 !s107 C:/quartus_projects/EE214/project/CPU/four_bit_multiplier.vhd|
+!i113 0
+R12
+R13
+Amultiply
+Z56 DEx4 work 16 n_bit_full_adder 0 22 4g_];1CHGRLOTSHdA0:7K0
+R2
+R3
+R4
+R17
+!i122 23
+l17
+L12 74
+VllZFoA7N2ojMHeU?]Adi60
+!s100 G`T8Gm;W`PK`LKTQKD2_=2
+R7
+31
+R24
+!i10b 1
+R9
+R54
+R55
+!i113 0
+R12
+R13
+Efsm
+Z57 w1733329940
+R2
+R3
+R4
+!i122 26
+R0
+Z58 8C:/quartus_projects/EE214/project/CPU/fsm.vhd
+Z59 FC:/quartus_projects/EE214/project/CPU/fsm.vhd
+l0
+L5 1
+VhzDFo5aFNniY9AN@9::6A2
+!s100 940>f4:jbi0NnKiS`9Y7H0
+R7
+31
+R8
+!i10b 1
+R31
+Z60 !s90 -reportprogress|300|-93|-work|work|C:/quartus_projects/EE214/project/CPU/fsm.vhd|
+Z61 !s107 C:/quartus_projects/EE214/project/CPU/fsm.vhd|
+!i113 0
+R12
+R13
+Acocacola
+R47
+R2
+R3
+R4
+Z62 DEx4 work 3 fsm 0 22 hzDFo5aFNniY9AN@9::6A2
+!i122 26
+l47
+L18 597
+V<iP633alj0EhNTfRQPeU]0
+!s100 :KF@WmB[JBn[iZSUi3@:50
+R7
+31
+R8
+!i10b 1
+R31
+R60
+R61
+!i113 0
+R12
+R13
+Efsm_tb
+Z63 w1733338852
+R62
+Z64 DPx4 ieee 16 std_logic_textio 0 22 8]8<fKiYoHe;_IDO3kmNH2
+R2
+R3
+R4
+!i122 27
+R0
+Z65 8C:/quartus_projects/EE214/project/CPU/fsm_tb.vhd
+Z66 FC:/quartus_projects/EE214/project/CPU/fsm_tb.vhd
+l0
+L10 1
+VTISARBAUg[VicQ_zMM=Zh2
+!s100 _FO1XBS=oJbV>ML]]MehB0
+R7
+31
+R8
+!i10b 1
+R31
+Z67 !s90 -reportprogress|300|-93|-work|work|C:/quartus_projects/EE214/project/CPU/fsm_tb.vhd|
+Z68 !s107 C:/quartus_projects/EE214/project/CPU/fsm_tb.vhd|
+!i113 0
+R12
+R13
+Abehavioral
+R62
+R64
+R2
+R3
+R4
+DEx4 work 6 fsm_tb 0 22 TISARBAUg[VicQ_zMM=Zh2
+!i122 27
+l38
+L14 116
+V16VFdVMbJZj6HQz[7bj:N0
+!s100 WXO]PFgZeYJWNkXQ7Y4F52
+R7
+31
+R8
+!i10b 1
+R31
+R67
+R68
+!i113 0
+R12
+R13
+Efull_adder
+R1
+R2
+R3
+R4
+!i122 18
+R0
+Z69 8C:/quartus_projects/EE214/project/CPU/full_adder.vhd
+Z70 FC:/quartus_projects/EE214/project/CPU/full_adder.vhd
+l0
+L5 1
+VCAPX`ORTIH>Kol==eFI=a1
+!s100 J>Wg>^J?ERb`^YI5E26IN1
+R7
+31
+R24
+!i10b 1
+R9
+Z71 !s90 -reportprogress|300|-93|-work|work|C:/quartus_projects/EE214/project/CPU/full_adder.vhd|
+Z72 !s107 C:/quartus_projects/EE214/project/CPU/full_adder.vhd|
+!i113 0
+R12
+R13
+Afull_adder_arc
+R2
+R3
+R4
+Z73 DEx4 work 10 full_adder 0 22 CAPX`ORTIH>Kol==eFI=a1
+!i122 18
+l12
+L10 9
+V1MQbZdbdROGW987C9JLnX3
+!s100 W1AohT`bj=16Jgeb@6zCe3
+R7
+31
+R24
+!i10b 1
+R9
+R71
+R72
+!i113 0
+R12
+R13
+Einstruction_register
+R1
+R3
+R4
+!i122 17
+R0
+Z74 8C:/quartus_projects/EE214/project/CPU/instruction_register.vhd
+Z75 FC:/quartus_projects/EE214/project/CPU/instruction_register.vhd
+l0
+L4 1
+Vh6;2FiHR>^ogd8oen;0^M1
+!s100 DX<R_I]>=>UY8dOCSoIcH2
+R7
+31
+R24
+!i10b 1
+Z76 !s108 1733378136.000000
+Z77 !s90 -reportprogress|300|-93|-work|work|C:/quartus_projects/EE214/project/CPU/instruction_register.vhd|
+Z78 !s107 C:/quartus_projects/EE214/project/CPU/instruction_register.vhd|
+!i113 0
+R12
+R13
+Abehavioral
+R3
+R4
+R45
+!i122 17
+l21
+L19 23
+Vn]bnJ:1SDe=XdaR]8>9;o3
+!s100 CM_KB4<MNbiWES9ckD6PQ0
+R7
+31
+R24
+!i10b 1
+R76
+R77
+R78
+!i113 0
+R12
+R13
+Elhi
+R1
+R2
+R3
+R4
+!i122 16
+R0
+Z79 8C:/quartus_projects/EE214/project/CPU/LHI.vhd
+Z80 FC:/quartus_projects/EE214/project/CPU/LHI.vhd
+l0
+L5 1
+V_bFER=i7e@C2Fg84D]1@[3
+!s100 R<HN58Fzm565UL6SCj]Ei1
+R7
+31
+Z81 !s110 1733378136
+!i10b 1
+R76
+Z82 !s90 -reportprogress|300|-93|-work|work|C:/quartus_projects/EE214/project/CPU/LHI.vhd|
+Z83 !s107 C:/quartus_projects/EE214/project/CPU/LHI.vhd|
+!i113 0
+R12
+R13
+Astruct
+R2
+R3
+R4
+R36
+!i122 16
+l12
+L10 6
+Vd`g[VLYaDYmXL3ahAk7dE3
+!s100 7l>9<jl:Hj6FP7cg67>bo2
+R7
+31
+R81
+!i10b 1
+R76
+R82
+R83
+!i113 0
+R12
+R13
+Ememory
+Z84 w1733337828
+R2
+R3
+R4
+!i122 15
+R0
+Z85 8C:/quartus_projects/EE214/project/CPU/memory.vhd
+Z86 FC:/quartus_projects/EE214/project/CPU/memory.vhd
+l0
+L6 1
+VX<??b6jn93FoN0O]6V`630
+!s100 hHLoUe03lBEX1N90K<3^d1
+R7
+31
+R81
+!i10b 1
+R76
+Z87 !s90 -reportprogress|300|-93|-work|work|C:/quartus_projects/EE214/project/CPU/memory.vhd|
+Z88 !s107 C:/quartus_projects/EE214/project/CPU/memory.vhd|
+!i113 0
+R12
+R13
+Adesign
+R2
+R3
+R4
+R44
+!i122 15
+l19
+L15 16
+VPYA^o2WONFiHDcenbfghn3
+!s100 AYLmb2PzkYOzl7ZTzWIkE2
+R7
+31
+R81
+!i10b 1
+R76
+R87
+R88
+!i113 0
+R12
+R13
+Emux16bit2to1
+R1
+R2
+R3
+R4
+!i122 12
+R0
+Z89 8C:/quartus_projects/EE214/project/CPU/mux16bit2to1.vhd
+Z90 FC:/quartus_projects/EE214/project/CPU/mux16bit2to1.vhd
+l0
+L5 1
+V8YgYcWYU`NY[W`O0f;3hP2
+!s100 RTJT1;8iQ5JX<IAPiI66^3
+R7
+31
+R81
+!i10b 1
+R76
+Z91 !s90 -reportprogress|300|-93|-work|work|C:/quartus_projects/EE214/project/CPU/mux16bit2to1.vhd|
+Z92 !s107 C:/quartus_projects/EE214/project/CPU/mux16bit2to1.vhd|
+!i113 0
+R12
+R13
+Abehavioral
+R2
+R3
+R4
+R42
+!i122 12
+l14
+L13 11
+V6j6?Kf>kg=cj@^lRPDTTO3
+!s100 0Pha8AS6EdIgPoiaTBA;i1
+R7
+31
+R81
+!i10b 1
+R76
+R91
+R92
+!i113 0
+R12
+R13
+Emux16bit4to1
+R1
+R2
+R3
+R4
+!i122 11
+R0
+Z93 8C:/quartus_projects/EE214/project/CPU/mux16bit4to1.vhd
+Z94 FC:/quartus_projects/EE214/project/CPU/mux16bit4to1.vhd
+l0
+L5 1
+VkDLi9@ML`?lXgTAh`6dSj3
+!s100 6@Sh4CQiaH_98?8M<OOOQ0
+R7
+31
+R81
+!i10b 1
+R76
+Z95 !s90 -reportprogress|300|-93|-work|work|C:/quartus_projects/EE214/project/CPU/mux16bit4to1.vhd|
+Z96 !s107 C:/quartus_projects/EE214/project/CPU/mux16bit4to1.vhd|
+!i113 0
+R12
+R13
+Abehavioral
+R2
+R3
+R4
+R37
+!i122 11
+l14
+Z97 L13 13
+VZngQAg^4k1@<Vnj[Ib>M92
+!s100 NHZjP77^kGcnS28?2kZ952
+R7
+31
+R81
+!i10b 1
+R76
+R95
+R96
+!i113 0
+R12
+R13
+Emux16bit8to1
+R1
+R2
+R3
+R4
+!i122 10
+R0
+Z98 8C:/quartus_projects/EE214/project/CPU/mux16bit8to1.vhd
+Z99 FC:/quartus_projects/EE214/project/CPU/mux16bit8to1.vhd
+l0
+L5 1
+V0C6lmO1z;3m`EOS>MeA4D2
+!s100 FNGB4Melf<h;^]zlK8X3S2
+R7
+31
+R81
+!i10b 1
+Z100 !s108 1733378135.000000
+Z101 !s90 -reportprogress|300|-93|-work|work|C:/quartus_projects/EE214/project/CPU/mux16bit8to1.vhd|
+Z102 !s107 C:/quartus_projects/EE214/project/CPU/mux16bit8to1.vhd|
+!i113 0
+R12
+R13
+Abehavioral
+R2
+R3
+R4
+R19
+!i122 10
+l14
+L13 17
+VhHf0mZN7IM^ehP>b_3@kb3
+!s100 7Xh8j;cTI7K:=k:b;cTjT2
+R7
+31
+R81
+!i10b 1
+R100
+R101
+R102
+!i113 0
+R12
+R13
+Emux3bit4to1
+R1
+R2
+R3
+R4
+!i122 14
+R0
+Z103 8C:/quartus_projects/EE214/project/CPU/mux3bit4to1.vhd
+Z104 FC:/quartus_projects/EE214/project/CPU/mux3bit4to1.vhd
+l0
+L5 1
+VVVL;4:b]j5IbG:LQ;9>h;2
+!s100 ]AL<@6PaY6JAcX3=9kH[M2
+R7
+31
+R81
+!i10b 1
+R76
+Z105 !s90 -reportprogress|300|-93|-work|work|C:/quartus_projects/EE214/project/CPU/mux3bit4to1.vhd|
+Z106 !s107 C:/quartus_projects/EE214/project/CPU/mux3bit4to1.vhd|
+!i113 0
+R12
+R13
+Abehavioral
+R2
+R3
+R4
+R34
+!i122 14
+l14
+R97
+Vm1kOW9WmG[3LUm3<hR:l11
+!s100 m1L5jYIE>7EF3jM`cbXe41
+R7
+31
+R81
+!i10b 1
+R76
+R105
+R106
+!i113 0
+R12
+R13
+Emux8x1
+R1
+R3
+R4
+!i122 13
+R0
+Z107 8C:/quartus_projects/EE214/project/CPU/mux8x1.vhd
+Z108 FC:/quartus_projects/EE214/project/CPU/mux8x1.vhd
+l0
+L5 1
+VgMTVH82l5D4i;ol1E1dB@2
+!s100 <T[fI;nFoELAzAQ8<lDE33
+R7
+31
+R81
+!i10b 1
+R76
+Z109 !s90 -reportprogress|300|-93|-work|work|C:/quartus_projects/EE214/project/CPU/mux8x1.vhd|
+Z110 !s107 C:/quartus_projects/EE214/project/CPU/mux8x1.vhd|
+!i113 0
+R12
+R13
+Adesign
+R3
+R4
+DEx4 work 6 mux8x1 0 22 gMTVH82l5D4i;ol1E1dB@2
+!i122 13
+l22
+L20 19
+VN5Ok`JGRNEMcf>41d[;6X0
+!s100 URbPYhAiih:FO<3ga6eFZ1
+R7
+31
+R81
+!i10b 1
+R76
+R109
+R110
+!i113 0
+R12
+R13
+En_bit_adder_subtractor
+R1
+R2
+R3
+R4
+!i122 22
+R0
+Z111 8C:/quartus_projects/EE214/project/CPU/n_bit_adder_subtractor.vhd
+Z112 FC:/quartus_projects/EE214/project/CPU/n_bit_adder_subtractor.vhd
+l0
+L5 1
+V@^D@b4JXjBh@HXO`g=;Z[1
+!s100 X]25XVLlVHiL@M3RYbJW21
+R7
+31
+R24
+!i10b 1
+R9
+Z113 !s90 -reportprogress|300|-93|-work|work|C:/quartus_projects/EE214/project/CPU/n_bit_adder_subtractor.vhd|
+Z114 !s107 C:/quartus_projects/EE214/project/CPU/n_bit_adder_subtractor.vhd|
+!i113 0
+R12
+R13
+Astructural
+R56
+Z115 DEx4 work 14 n_bit_inverter 0 22 fIiD[Y1Gc5=Fe7IEWDn3Y1
+R2
+R3
+R4
+R18
+!i122 22
+l22
+L18 24
+VY`<<4j^:Y<EN;d[B[]1I<3
+!s100 EohelKiNz:G6OifJ4:4<C2
+R7
+31
+R24
+!i10b 1
+R9
+R113
+R114
+!i113 0
+R12
+R13
+En_bit_and
+R1
+R2
+R3
+R4
+!i122 9
+R0
+Z116 8C:/quartus_projects/EE214/project/CPU/n_bit_and.vhd
+Z117 FC:/quartus_projects/EE214/project/CPU/n_bit_and.vhd
+l0
+L5 1
+VJ5W8K9[?f6IOR2HLPeWfC1
+!s100 ICm8;BbPfL3k1<Pb60D2g2
+R7
+31
+Z118 !s110 1733378135
+!i10b 1
+R100
+Z119 !s90 -reportprogress|300|-93|-work|work|C:/quartus_projects/EE214/project/CPU/n_bit_and.vhd|
+Z120 !s107 C:/quartus_projects/EE214/project/CPU/n_bit_and.vhd|
+!i113 0
+R12
+R13
+Adataflow
+R2
+R3
+R4
+R15
+!i122 9
+l16
+Z121 L15 6
+VcW6mSCkloGi<<2Am2Eb8D3
+!s100 JKPGi[4UCN9R_6BUQN5<L2
+R7
+31
+R118
+!i10b 1
+R100
+R119
+R120
+!i113 0
+R12
+R13
+En_bit_full_adder
+R1
+R2
+R3
+R4
+!i122 21
+R0
+Z122 8C:/quartus_projects/EE214/project/CPU/n_bit_full_adder.vhd
+Z123 FC:/quartus_projects/EE214/project/CPU/n_bit_full_adder.vhd
+l0
+L5 1
+V4g_];1CHGRLOTSHdA0:7K0
+!s100 @nnmJW1Zbj@H0JZU1SFJz3
+R7
+31
+R24
+!i10b 1
+R9
+Z124 !s90 -reportprogress|300|-93|-work|work|C:/quartus_projects/EE214/project/CPU/n_bit_full_adder.vhd|
+Z125 !s107 C:/quartus_projects/EE214/project/CPU/n_bit_full_adder.vhd|
+!i113 0
+R12
+R13
+Astructural
+R73
+R2
+R3
+R4
+R56
+!i122 21
+l19
+L17 17
+VFSfM;?QYcRSO;DHXcIn>=0
+!s100 ;OB5>4_NOn3DnXzVbOXSM2
+R7
+31
+R24
+!i10b 1
+R9
+R124
+R125
+!i113 0
+R12
+R13
+En_bit_imply
+R1
+R2
+R3
+R4
+!i122 8
+R0
+Z126 8C:/quartus_projects/EE214/project/CPU/n_bit_imply.vhd
+Z127 FC:/quartus_projects/EE214/project/CPU/n_bit_imply.vhd
+l0
+L5 1
+Va>A6QjKVTRG788dSK1kR:1
+!s100 :27?OmQ5:z@i=gQ_>24]71
+R7
+31
+R118
+!i10b 1
+R100
+Z128 !s90 -reportprogress|300|-93|-work|work|C:/quartus_projects/EE214/project/CPU/n_bit_imply.vhd|
+Z129 !s107 C:/quartus_projects/EE214/project/CPU/n_bit_imply.vhd|
+!i113 0
+R12
+R13
+Adataflow
+R2
+R3
+R4
+R14
+!i122 8
+l16
+R121
+V1L4mHJfIX^]FkL@S3BO2?1
+!s100 FcdBQA9ehK5HdQCnZiiA62
+R7
+31
+R118
+!i10b 1
+R100
+R128
+R129
+!i113 0
+R12
+R13
+En_bit_inverter
+R1
+R2
+R3
+R4
+!i122 7
+R0
+Z130 8C:/quartus_projects/EE214/project/CPU/n_bit_inverter.vhd
+Z131 FC:/quartus_projects/EE214/project/CPU/n_bit_inverter.vhd
+l0
+L5 1
+VfIiD[Y1Gc5=Fe7IEWDn3Y1
+!s100 :PUmO1oc6P6>=_O09f8jS1
+R7
+31
+R118
+!i10b 1
+R100
+Z132 !s90 -reportprogress|300|-93|-work|work|C:/quartus_projects/EE214/project/CPU/n_bit_inverter.vhd|
+Z133 !s107 C:/quartus_projects/EE214/project/CPU/n_bit_inverter.vhd|
+!i113 0
+R12
+R13
+Adataflow
+R2
+R3
+R4
+R115
+!i122 7
+l16
+R121
+VfB=4HiTkg?<jK2Wd_nST72
+!s100 <_XTkV[Z0VNDGKc3aBPXo3
+R7
+31
+R118
+!i10b 1
+R100
+R132
+R133
+!i113 0
+R12
+R13
+En_bit_or
+R1
+R2
+R3
+R4
+!i122 6
+R0
+Z134 8C:/quartus_projects/EE214/project/CPU/n_bit_or.vhd
+Z135 FC:/quartus_projects/EE214/project/CPU/n_bit_or.vhd
+l0
+L5 1
+VYM=9DWI=jh3B33QFBVY2V1
+!s100 NVogSZ^znlE4AnWB3gJ<13
+R7
+31
+R118
+!i10b 1
+R100
+Z136 !s90 -reportprogress|300|-93|-work|work|C:/quartus_projects/EE214/project/CPU/n_bit_or.vhd|
+Z137 !s107 C:/quartus_projects/EE214/project/CPU/n_bit_or.vhd|
+!i113 0
+R12
+R13
+Adataflow
+R2
+R3
+R4
+R16
+!i122 6
+l16
+R121
+V:3z5P7fj4[GL;fYXI6?C>1
+!s100 3R1F9[S0KdOaH@Ub7Dl`G3
+R7
+31
+R118
+!i10b 1
+R100
+R136
+R137
+!i113 0
+R12
+R13
+En_bit_register
+R1
+R2
+R3
+R4
+!i122 5
+R0
+Z138 8C:/quartus_projects/EE214/project/CPU/n_bit_register.vhd
+Z139 FC:/quartus_projects/EE214/project/CPU/n_bit_register.vhd
+l0
+L5 1
+VH:g`fgOh=o:OUe6UY0;?J2
+!s100 O[GL]:0SQg`YXPaeO_gD@3
+R7
+31
+R118
+!i10b 1
+R100
+Z140 !s90 -reportprogress|300|-93|-work|work|C:/quartus_projects/EE214/project/CPU/n_bit_register.vhd|
+Z141 !s107 C:/quartus_projects/EE214/project/CPU/n_bit_register.vhd|
+!i113 0
+R12
+R13
+Abehavioral
+R2
+R3
+R4
+R46
+!i122 5
+l20
+L18 16
+V:MHT3@ZIYH_oQjK_DITFJ0
+!s100 M:VX6_FLbP6[IM;gnFl6<2
+R7
+31
+R118
+!i10b 1
+R100
+R140
+R141
+!i113 0
+R12
+R13
+Epad_lli
+Z142 w1733323696
+R3
+R4
+!i122 4
+R0
+Z143 8C:/quartus_projects/EE214/project/CPU/pad_lli.vhd
+Z144 FC:/quartus_projects/EE214/project/CPU/pad_lli.vhd
+l0
+L4 1
+Vg?8^R;fe2]zcB_iK]bbMV3
+!s100 >InVcN1L2b6GLIEP^19DM2
+R7
+31
+R118
+!i10b 1
+R100
+Z145 !s90 -reportprogress|300|-93|-work|work|C:/quartus_projects/EE214/project/CPU/pad_lli.vhd|
+Z146 !s107 C:/quartus_projects/EE214/project/CPU/pad_lli.vhd|
+!i113 0
+R12
+R13
+Abehavioral
+R3
+R4
+R35
+!i122 4
+l12
+L11 4
+VdWJ9YPdG69lM<b;21b2Cb3
+!s100 Pm4h0=UAC>5mIOGJHeWEA3
+R7
+31
+R118
+!i10b 1
+R100
+R145
+R146
+!i113 0
+R12
+R13
+Ereg
+R1
+R3
+R4
+!i122 3
+R0
+Z147 8C:/quartus_projects/EE214/project/CPU/reg.vhd
+Z148 FC:/quartus_projects/EE214/project/CPU/reg.vhd
+l0
+L5 1
+VI=l>WVM`i]7F@?UON<Ug;3
+!s100 ZY7?I?^?cofW@TTS?]L^_1
+R7
+31
+R118
+!i10b 1
+Z149 !s108 1733378134.000000
+Z150 !s90 -reportprogress|300|-93|-work|work|C:/quartus_projects/EE214/project/CPU/reg.vhd|
+Z151 !s107 C:/quartus_projects/EE214/project/CPU/reg.vhd|
+!i113 0
+R12
+R13
+Adesign
+R3
+R4
+DEx4 work 3 reg 0 22 I=l>WVM`i]7F@?UON<Ug;3
+!i122 3
+l17
+L15 15
+VKnT`=nz1zEC4ZnlNN@ObF0
+!s100 QZ1PjS^`ZJ_m30Yg5LG6g2
+R7
+31
+R118
+!i10b 1
+R149
+R150
+R151
+!i113 0
+R12
+R13
+Eregister_file
+R1
+R3
+R4
+!i122 2
+R0
+Z152 8C:/quartus_projects/EE214/project/CPU/register_file.vhd
+Z153 FC:/quartus_projects/EE214/project/CPU/register_file.vhd
+l0
+L4 1
+VZ`k[0LYe95BJmLcb4gdX32
+!s100 U>`RnG]g`63ED@HEXbRcQ3
+R7
+31
+Z154 !s110 1733378134
+!i10b 1
+R149
+Z155 !s90 -reportprogress|300|-93|-work|work|C:/quartus_projects/EE214/project/CPU/register_file.vhd|
+Z156 !s107 C:/quartus_projects/EE214/project/CPU/register_file.vhd|
+!i113 0
+R12
+R13
+Adesign
+R3
+R4
+R43
+!i122 2
+l53
+L17 60
+VIciQ;Doc@YUoloC[:9m]l1
+!s100 >cEiAc3mmHgmAV;h@19PJ1
+R7
+31
+R154
+!i10b 1
+R149
+R155
+R156
+!i113 0
+R12
+R13
+Ese6_16
+Z157 w1733225778
+R39
+R40
+R2
+R3
+R4
+!i122 1
+R0
+Z158 8C:/quartus_projects/EE214/project/CPU/SE6_16.vhd
+Z159 FC:/quartus_projects/EE214/project/CPU/SE6_16.vhd
+l0
+L6 1
+VBQH2bWUgVdT:L8g;DeJZe3
+!s100 i4T;S9Y>]L`>D[;Z0m73`1
+R7
+31
+R154
+!i10b 1
+R149
+Z160 !s90 -reportprogress|300|-93|-work|work|C:/quartus_projects/EE214/project/CPU/SE6_16.vhd|
+Z161 !s107 C:/quartus_projects/EE214/project/CPU/SE6_16.vhd|
+!i113 0
+R12
+R13
+Astruct
+R39
+R40
+R2
+R3
+R4
+R41
+!i122 1
+l13
+L11 9
+VIeb8>QmFOIoQjh<e7hh?P1
+!s100 `TYfccbDWfZX2hafYAH3G1
+R7
+31
+R154
+!i10b 1
+R149
+R160
+R161
+!i113 0
+R12
+R13
+Ese9_16
+Z162 w1733225764
+R39
+R40
+R2
+R3
+R4
+!i122 0
+R0
+Z163 8C:/quartus_projects/EE214/project/CPU/SE9_16.vhd
+Z164 FC:/quartus_projects/EE214/project/CPU/SE9_16.vhd
+l0
+L6 1
+VNEiiOJ`^4N8]>F]ec:PgH1
+!s100 7akV>T4jDP6;=cb@6n`nX1
+R7
+31
+R154
+!i10b 1
+R149
+Z165 !s90 -reportprogress|300|-93|-work|work|C:/quartus_projects/EE214/project/CPU/SE9_16.vhd|
+Z166 !s107 C:/quartus_projects/EE214/project/CPU/SE9_16.vhd|
+!i113 0
+R12
+R13
+Astruct
+R39
+R40
+R2
+R3
+R4
+R38
+!i122 0
+l13
+L11 7
+VzH`SD@8i`Yj5VhZKB445d2
+!s100 DH^iN;a<8eJnjbaAmW?@Q0
+R7
+31
+R154
+!i10b 1
+R149
+R165
+R166
+!i113 0
+R12
+R13
